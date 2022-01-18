@@ -1,5 +1,13 @@
-const { sum } = require('./index.js');
+const { stringLength } = require('./index.js');
 
-test('should be print 5', () => {
-  expect(sum(2, 3)).toBe(5);
+describe('TDD task 1', () => {
+  test('should be print is 5', () => {
+    expect(stringLength('house')).toBe(5);
+  });
+  test('should be print "String is empty"', () => {
+    expect(stringLength('')).toBe('String is empty');
+  });
+  test('should be print is "String is to long"', () => {
+    expect(stringLength('house of carts blue')).toBe('String is to long');
+  });
 });
