@@ -1,4 +1,4 @@
-const { stringLength, reverseString } = require('./index.js');
+const { stringLength, reverseString, capitalize } = require('./index.js');
 
 describe('TDD task 1', () => {
   test('should be print is 5', () => {
@@ -15,5 +15,11 @@ describe('TDD task 1', () => {
 describe('TDD task 2', () => {
   test('should be print is "esuoh"', () => {
     expect(reverseString('house')).toBe('esuoh');
+  });
+});
+
+describe('TDD task 3', () => {
+  test('should be print is "House"', () => {
+    expect(capitalize('house')).toBe('House');
   });
 });
