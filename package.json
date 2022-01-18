@@ -1,0 +1,24 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "testing function with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendridg/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendridg/testing-practice/issues"
+  },
+  "homepage": "https://github.com/hendridg/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
